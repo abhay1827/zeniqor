@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ─── Scroll Reveal Animations ───
   const animateEls = document.querySelectorAll(
-    '.service-card, .stat-item, .step-card, .portfolio-item, .value-item, .about-card, .cost-sheet-card, .testi-card'
+    '.service-card, .stat-item, .step-card, .value-item, .about-card, .ops-card, .de-item, .web-card, .prod-step-content, .cad-visual-card'
   );
   const revealObs = new IntersectionObserver((entries) => {
     entries.forEach((entry, i) => {
